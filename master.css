@@ -1,0 +1,55 @@
+#arrow img {
+	height: 48px;
+	transition: height 0.4s;
+}
+#arrow img:hover {
+	height: 60px;
+	transition: height 0.4s;
+}
+#emailInput {
+	width: 350px;
+}
+.primaryLink {
+	padding: 20px 20px;
+	color: hsl(0, 0%, 100%);
+	transition: color 0.3s;
+}
+.primaryLink:hover {
+	color: #b6426b;
+	transition: color 0.3s;
+}
+.is-horizontal-center {
+	justify-content: center;
+}
+.fadeIn {
+	-webkit-animation-duration: 2.5s;
+	animation-duration: 2.5s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+@media (max-width: 1024px) {
+	#emailInput {
+		width: 250px;
+	}
+	#emailColumns {
+		padding: 0px 5%;
+	}
+}
+@media (max-width: 768px) {
+	#emailInput {
+		width: 55vw;
+	}
+	.center {
+		margin: 0 auto;
+	}
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
