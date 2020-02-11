@@ -1,5 +1,32 @@
-#emailInput {
-	width: 350px;
+#homebutton {
+	background-color: white;
+	color: black;
+	border: 0;
+	transition: color 0.3s;
+	transition: background-color 0.3s;
+}
+#homebutton:hover {
+	background-color: #b6426b;
+	color: white;
+	transition: color 0.3s;
+	transition: background-color 0.3s;
+}
+.video-container {
+	position: relative;
+	padding-bottom: 52%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 90%;
+	height: 90%;
 }
 .primaryLink {
 	padding: 20px 20px;

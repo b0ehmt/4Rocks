@@ -16,24 +16,19 @@
 		<title>4Rocks – Galerie</title>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
 		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-		<link rel="stylesheet" type="text/css" href="master.css" />
+		<link rel="stylesheet" type="text/css" href="css/master.css" />
 		<link rel="stylesheet" type="text/css" href="css/mystyles.css" />
+		<link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	</head>
 	<body>
-		<!--<p class="subtitle">
-			Videos unserer Konzerte auf YouTube:<br />
-			&bull;&nbsp;<a href="https://youtu.be/JRavKvUJnUI" target="_blank">4Rocks in Heusweiler am 14.06.2019</a>
-			<br />
-			&bull;&nbsp;<a href="https://youtu.be/jAsdbVHBYRU" target="_blank">4Rocks in Obersalbach am 30.04.2019&nbsp;</a> <br /><br />
-			</p>-->
 		<section class="hero is-dark is-medium is-unselectable">
 			<div class="hero-body fadeIn" style="padding:2rem 0.5rem;">
 				<div class="container">
 					<div class="columns is-vcentered">
 						<div class="column is-one-fifths has-text-centered is-hidden-mobile">
-							<a class="button is-white" href="index.html"
+							<a id="homebutton" class="button" href="index.html"
 								><span class="icon is-small"><i class="fas fa-chevron-left fa-lg"></i></span>
 								<span>&nbsp;Zur&nbsp;Homepage</span></a
 							>
@@ -116,10 +111,52 @@
 				</div>
 			</div>
 		</section>
+		<!--<p class="subtitle">
+			Videos unserer Konzerte auf YouTube:<br />
+			&bull;&nbsp;<a href="https://youtu.be/JRavKvUJnUI" target="_blank">4Rocks in Heusweiler am 14.06.2019</a>
+			<br />
+			&bull;&nbsp;<a href="https://youtu.be/jAsdbVHBYRU" target="_blank">4Rocks in Obersalbach am 30.04.2019&nbsp;</a> <br /><br />
+			</p>-->
 		<section class="is-centered is-unselectable">
-			<div class="container" style="margin-left: 5%; margin-right: 5%;"><br /><br /></div>
+			<div class="container" style="margin-left: 5%; margin-right: 5%;">
+				<br /><br />
+				<p class="title">Videos unserer Konzerte</p>
+				<div class="columns">
+					<div class="column is-half">
+						<p class="subtitle"><strong>4Rocks in Heusweiler am 14.06.2019</strong></p>
+						<div class="video-container">
+							<iframe
+								width="560"
+								height="315"
+								src="https://www.youtube.com/embed/JRavKvUJnUI?rel=0"
+								frameborder="0"
+								modestbranding="1"
+								hl="de"
+								allow="accelerometer; encrypted-media; picture-in-picture"
+								allowfullscreen
+							></iframe>
+						</div>
+					</div>
+					<br />
+					<div class="column is-half">
+						<p class="subtitle"><strong>4Rocks in Obersalbach am 30.04.2019</strong></p>
+						<div class="video-container">
+							<iframe
+								width="560"
+								height="315"
+								src="https://www.youtube.com/embed/jAsdbVHBYRU?rel=0"
+								frameborder="0"
+								modestbranding="1"
+								hl="de"
+								allow="accelerometer; encrypted-media; picture-in-picture"
+								allowfullscreen
+							></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
-		<br /><br />
+		<br />
 		<section id="aufnahmen" class="is-centered">
 			<div class="container">
 				<div class="tabs is-centered">
