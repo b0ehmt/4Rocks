@@ -63,6 +63,9 @@
 	.center {
 		margin: 0 auto;
 	}
+	#homebutton {
+		margin-bottom: 10px;
+	}
 }
 @keyframes fadeIn {
 	0% {
