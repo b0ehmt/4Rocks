@@ -23,8 +23,8 @@
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	</head>
 	<body>
-		<section class="hero is-dark is-medium is-unselectable">
-			<div class="hero-body fadeIn" style="padding:2rem 0.5rem;">
+		<section id="hero" class="hero is-dark is-unselectable">
+			<div class="hero-body fadeIn" style="padding:1.8rem 0.5rem 3.5rem 0.5rem;">
 				<div class="container">
 					<div class="columns is-vcentered">
 						<div class="column is-one-fifths has-text-centered">
@@ -55,26 +55,9 @@
 						<div class="column is-one-fifths has-text-centered is-hidden-mobile"></div>
 					</div>
 				</div>
-				<br /><br />
-				<h1 class="has-text-centered is-size-5-desktop is-size-6-mobile">
-					Wir performen Rockmusik aus unserer Jugendzeit bis zu ganz aktuellen Titeln – Energetisch und unverfälscht!
-				</h1>
-				<br /><br />
-				<center>
-					<figure class="image"><img src="images/files/images.svg" style="width: 300px;" /></figure>
-					<br />
-					<p class="is-size-6" style="margin: 15px;">
-						Bitte scrollen, um die Galerie anzusehen.
-					</p>
-					<a href="#bilder">
-						<figure class="icon is-large primaryLink">
-							<i class="fas fa-chevron-circle-down fa-3x"></i>
-						</figure>
-					</a>
-				</center>
 			</div>
 		</section>
-		<!--<section id="bilder" class="is-centered">
+		<section id="bilder" class="is-centered">
 			<div class="container">
 				<div class="tabs is-centered">
 					<ul>
@@ -91,7 +74,13 @@
 		<section class="is-centered is-unselectable">
 			<div class="container" style="margin-left: 5%; margin-right: 5%;">
 				<br /><br />
-				<p class="title">Bilder</p>
+				<center>
+					<img src="./images/files/wip.svg" class="image" style="width: 220px;" />
+					<br />
+					<h1 class="title is-size-4">Bald verfügbar.</h1>
+				</center>
+
+				<!--<p class="title">Bilder</p>
 				<div class="columns is-centered">
 					<div class="column">
 						<div class="card" style="border-radius:6px;">
@@ -130,10 +119,10 @@
 
 					<div class="column"></div>
 					<div class="column"></div>
-				</div>
+				</div>-->
 			</div>
 		</section>
-		<br /><br />-->
+		<br /><br />
 		<section id="videos" class="is-centered">
 			<div class="container">
 				<div class="tabs is-centered">
@@ -205,35 +194,19 @@
 		<footer class="footer">
 			<div class="container">
 				<div class="columns">
-					<div class="column is-one-fifths is-unselectable">
-						<h2 class="subtitle">Erstellt von: <a href="https://twitter.com/b0ehmt" target="_blank">Tobias Böhm</a></h2>
-						<p>Copyright&nbsp;2020</p>
+					<div class="column is-3 is-unselectable is-hidden-mobile"></div>
+					<div class="column is-6 is-unselectable">
+						<center><p class="subtitle is-size-6">—</p></center>
+						<br />
+						<p class="subtitle is-size-6">
+							Erstellt von <a href="https://twitter.com/b0ehmt" target="_blank">Tobias Böhm</a> mit Hilfe von
+							<a href="https://bulma.io" target="_blank">Bulma</a>, <a href="https://undraw.co" target="_blank">unDraw</a>,
+							<a href="https://cookieinfoscript.com" target="_blank">CookieInfo</a> und
+							<a href="https://favicon.io" target="_blank">Favicon.io</a>. Sie möchten uns kontaktieren? Unsere Kontaktdaten
+							finden sie <a href="#kontakt">hier</a>.
+						</p>
 					</div>
-					<div class="column is-one-fifths is-unselectable">
-						<h2 class="subtitle">Erstellt mit:</h2>
-						<div class="columns is-mobile">
-							<div class="column is-half-tablet is-two-fifths-mobile is-narrow-mobile">
-								<p><a href="https://bulma.io" target="_blank">Bulma</a></p>
-								<p><a href="https://sachinchoolur.github.io/lightGallery/" target="_blank">LightGallery</a></p>
-								<p><a href="https://undraw.co" target="_blank">unDraw</a></p>
-							</div>
-							<div class="column is-half-tablet is-three-fifths-mobile">
-								<p><a href="https://favicon.io" target="_blank">Favicon.io</a></p>
-								<p><a href="https://michalsnik.github.io/aos/" target="_blank">AOS</a></p>
-								<p><a href="https://cookieinfoscript.com" target="_blank">CookieInfo</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="column is-one-fifths">
-						<h2 class="subtitle">Kontakt:</h2>
-						<p><a href="mailto:kontakt@4rocks.net" target="_blank">kontakt@4rocks.net</a></p>
-						<p>Heiner&nbsp;–&nbsp;<a href="tel:0172 688 9940">0172 688 9940</a></p>
-						<p>Markus&nbsp;–&nbsp;<a href="tel:0151 5804 8794">0151 5804 8794</a></p>
-					</div>
-					<br />
-					<div class="column is-one-fifths is-centered">
-						<figure class="image"><img src="images/files/creation.svg" style="width: 250px;" /></figure>
-					</div>
+					<div class="column is-3 is-unselectable is-hidden-mobile"></div>
 				</div>
 			</div>
 		</footer>
