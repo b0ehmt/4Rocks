@@ -55,14 +55,6 @@
 	color: #b6426b;
 	transition: color 0.3s;
 }
-.fadeIn {
-	-webkit-animation-duration: 2.5s;
-	animation-duration: 2.5s;
-	-webkit-animation-fill-mode: both;
-	animation-fill-mode: both;
-	-webkit-animation-name: fadeIn;
-	animation-name: fadeIn;
-}
 @media (max-width: 768px) {
 	.center {
 		margin: 0 auto;
@@ -77,13 +69,5 @@
 	#topBtn {
 		right: 10px;
 		bottom: 25px;
-	}
-}
-@keyframes fadeIn {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
 	}
 }
