@@ -1146,7 +1146,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   color: #4a4a4a;
   display: block;
-  padding: 0rem; }
+  padding: 1.25rem; }
 
 a.box:hover, a.box:focus {
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px #5884ca; }
@@ -3758,7 +3758,7 @@ a.tag:hover {
 
 .card-content {
   background-color: transparent;
-  padding: 1.5rem; }
+  padding: 1rem; }
 
 .card-footer {
   background-color: transparent;
@@ -7099,7 +7099,7 @@ label.panel-block {
 
 .footer {
   background-color: white;
-  padding: 1.2rem 1.5rem 3rem; }
+  padding: 1.2rem 1.5rem 2.4rem; }
 
 .timeline {
   display: flex;

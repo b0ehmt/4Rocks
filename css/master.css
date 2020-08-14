@@ -1,44 +1,60 @@
-#homebutton {
-	background-color: white;
-	color: black;
-	border: 0;
-	transition: color 0.3s;
-	transition: background-color 0.3s;
+#hero {
+	box-shadow: 0px 5px 20px hsl(0, 0%, 85%);
 }
-#homebutton:hover {
-	background-color: #b6426b;
+#topBtn {
+	display: none;
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 25px;
+	right: 40px;
+	z-index: 99;
+	border-radius: 50%;
+	border: none;
+	outline: none;
 	color: white;
-	transition: color 0.3s;
+	background-color: #39374e;
 	transition: background-color 0.3s;
-}
-.video-container {
-	position: relative;
-	padding-bottom: 52%;
-	padding-top: 30px;
-	height: 0;
-	overflow: hidden;
+	cursor: pointer;
+	font-size: 18px;
+	box-shadow: 0px 5px 24px hsl(0, 0%, 95%);
 }
 
-.video-container iframe,
-.video-container object,
-.video-container embed {
-	position: absolute;
-	top: 0;
+#topBtn:hover {
+	background-color: #b6426b;
+	transition: background-color 0.3s;
+}
+.column.sameHeight {
+	display: inline-flex;
+}
+
+.column.sameHeight > div {
+	width: 100%;
+}
+.rounded {
+	border-radius: 6px;
+}
+.video-container {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+.video-container iframe {
 	left: 0;
-	width: 90%;
-	height: 90%;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 .primaryLink {
 	padding: 30px 30px;
-	color: hsl(0, 0%, 100%);
+	color: #fff;
 	transition: color 0.3s;
 }
 .primaryLink:hover {
 	color: #b6426b;
 	transition: color 0.3s;
-}
-.is-horizontal-center {
-	justify-content: center;
 }
 .fadeIn {
 	-webkit-animation-duration: 2.5s;
@@ -48,23 +64,20 @@
 	-webkit-animation-name: fadeIn;
 	animation-name: fadeIn;
 }
-.slide-bottom {
-	-webkit-animation: slide-bottom 2s ease-in infinite alternate both;
-	animation: slide-bottom 2s ease-in infinite alternate both;
-}
-.slide-bottom:hover {
-	-webkit-animation-play-state: paused;
-	-moz-animation-play-state: paused;
-	-o-animation-play-state: paused;
-	animation-play-state: paused;
-	cursor: pointer;
-}
 @media (max-width: 768px) {
 	.center {
 		margin: 0 auto;
 	}
-	#homebutton {
-		margin-bottom: 10px;
+	.column.sameHeight {
+		display: flex;
+	}
+
+	.column.sameHeight > div {
+		width: 100%;
+	}
+	#topBtn {
+		right: 10px;
+		bottom: 25px;
 	}
 }
 @keyframes fadeIn {
@@ -73,25 +86,5 @@
 	}
 	100% {
 		opacity: 1;
-	}
-}
-@-webkit-keyframes slide-bottom {
-	0% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-	}
-	100% {
-		-webkit-transform: translateY(10px);
-		transform: translateY(10px);
-	}
-}
-@keyframes slide-bottom {
-	0% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-	}
-	100% {
-		-webkit-transform: translateY(10px);
-		transform: translateY(10px);
 	}
 }
