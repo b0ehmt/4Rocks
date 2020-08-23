@@ -56,9 +56,6 @@
 	transition: color 0.3s;
 }
 @media (max-width: 768px) {
-	.center {
-		margin: 0 auto;
-	}
 	.column.sameHeight {
 		display: flex;
 	}
