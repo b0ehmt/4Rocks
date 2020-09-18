@@ -14,7 +14,6 @@
 		<link rel="icon" type="image/x-icon" href="./etc/favicon.ico" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
 		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="css/master.css" />
 		<link rel="stylesheet" type="text/css" href="css/mystyles.css" />
 		<link rel="stylesheet" type="text/css" href="css/pattern.css" />
@@ -56,7 +55,7 @@
 					<div class="column sameHeight">
 						<div class="columns is-variable is-2" style="padding: 0 0; margin-left: auto; margin-right: auto">
 							<div class="column sameHeight">
-								<div class="box" data-aos="zoom-in" data-aos-offset="-200">
+								<div class="box">
 									<p class="title is-3">Über die Band</p>
 									<p>
 										Wir sind 5 begeisterte Musiker aus dem Köllertal bei Saarbrücken und bieten Rock- & Pop-Klassiker
@@ -67,7 +66,7 @@
 								</div>
 							</div>
 							<div class="column sameHeight">
-								<div class="box" data-aos="zoom-in" data-aos-offset="-200">
+								<div class="box">
 									<p class="title is-3">Kontakt</p>
 									<p>Nehmt gerne über die folgenden Daten mit uns Kontakt auf.</p>
 									<br />
@@ -90,7 +89,7 @@
 					<div class="column sameHeight">
 						<div class="columns is-variable is-2 is-mobile" style="padding: 0 0; margin-left: auto; margin-right: auto">
 							<div class="column sameHeight">
-								<div class="box" data-aos="zoom-in" data-aos-offset="-200">
+								<div class="box">
 									<figure class="image">
 										<img class="rounded" src="images/achim.jpg" alt="Achim Neckenig" />
 									</figure>
@@ -99,7 +98,7 @@
 								</div>
 							</div>
 							<div class="column sameHeight">
-								<div class="box" data-aos="zoom-in" data-aos-offset="-200">
+								<div class="box">
 									<figure class="image">
 										<img class="rounded" src="images/georg.jpg" alt="Georg Wagner" />
 									</figure>
@@ -114,7 +113,7 @@
 					<div class="column sameHeight">
 						<div class="columns is-variable is-2 is-mobile" style="padding: 0 0; margin-left: auto; margin-right: auto">
 							<div class="column sameHeight">
-								<div class="box" data-aos="zoom-in" data-aos-offset="-200">
+								<div class="box">
 									<figure class="image">
 										<img class="rounded" src="images/heiner.jpg" alt="Heiner Monzel" />
 									</figure>
@@ -123,7 +122,7 @@
 								</div>
 							</div>
 							<div class="column sameHeight">
-								<div class="box" data-aos="zoom-in" data-aos-offset="-200">
+								<div class="box">
 									<figure class="image">
 										<img class="rounded" src="images/stephan.jpg" alt="Stephan Mayer" />
 									</figure>
@@ -136,7 +135,7 @@
 					<div class="column sameHeight">
 						<div class="columns is-variable is-2 is-mobile" style="padding: 0 0; margin-left: auto; margin-right: auto">
 							<div class="column sameHeight">
-								<div class="box" data-aos="zoom-in" data-aos-offset="-200">
+								<div class="box">
 									<figure class="image">
 										<img class="rounded" src="images/markus.jpg" alt="Markus Böhm" />
 									</figure>
@@ -229,18 +228,13 @@
 				</div>
 				<div class="columns is-variable is-2">
 					<div class="column sameHeight">
-						<div class="box" data-aos="zoom-in" data-aos-offset="-200">
+						<div class="box">
 							<p class="title is-5">Straßenfest, Marpingen</p>
 							<p class="subtitle">15. August 2020</p>
-							<div class="video-container">
-								<iframe
-									class="rounded"
-									width="560"
-									height="315"
-									src="https://www.youtube.com/embed/6ccykaXoGww?controls=1&loop=1&modestbranding=1&rel=0"
-									frameborder="0"
-									allowfullscreen
-								></iframe>
+							<div class="wrapper">
+								<div class="youtube rounded" data-embed="6ccykaXoGww">
+									<div class="play-button"></div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -263,7 +257,7 @@
 				</div>
 				<div class="tile is-ancestor">
 					<div class="tile is-4 is-vertical is-parent" style="padding: 0.75rem 0.5rem">
-						<div class="tile is-child box" data-aos="zoom-in" data-aos-offset="-200">
+						<div class="tile is-child box">
 							<p class="title is-3">Mögliche Titel</p>
 							<p>Hier ein kleiner Auszug aus unserem Repertoire als Beispiel für unseren Geschmack.</p>
 							<br />
@@ -273,7 +267,7 @@
 						<div class="tile is-child"></div>
 					</div>
 					<div class="tile is-4 is-parent" style="padding: 0.75rem 0.5rem">
-						<div class="tile is-child box" data-aos="zoom-in" data-aos-offset="-200">
+						<div class="tile is-child box">
 							<table class="table is-striped is-fullwidth rounded">
 								<thead>
 									<tr>
@@ -339,7 +333,7 @@
 						</div>
 					</div>
 					<div class="tile is-4 is-parent" style="padding: 0.75rem 0.5rem">
-						<div class="tile is-child box" data-aos="zoom-in" data-aos-offset="-200">
+						<div class="tile is-child box">
 							<table class="table is-striped is-fullwidth rounded">
 								<thead>
 									<tr>
@@ -416,10 +410,7 @@
 			</div>
 		</footer>
 		<div id="pl" class="pageloader is-active is-light is-top-to-bottom"><span class="title">Wird geladen..</span></div>
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-		<script>
-			AOS.init();
-		</script>
+		<script src="etc/embedyt.js"></script>
 		<script src="etc/pageloader.js"></script>
 	</body>
 </html>
