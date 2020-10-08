@@ -1,0 +1,33 @@
+.htext {
+	font-size: 1.8rem;
+}
+.ptext {
+	font-size: 1.2rem;
+}
+.sl-title {
+	font-size: 1.5rem;
+}
+.sl-text {
+	font-size: 1.1rem;
+}
+.no-select {
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+}
+@media (max-width: 768px) {
+	.htext {
+		font-size: 1.5rem;
+	}
+	.ptext {
+		font-size: 1.1rem;
+	}
+	.sl-title {
+		font-size: 1.2rem;
+	}
+	.sl-text {
+		font-size: 1rem;
+	}
+}

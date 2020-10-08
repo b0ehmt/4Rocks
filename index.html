@@ -1,426 +1,603 @@
-<!DOCTYPE html>
 <html lang="de">
 	<head>
-		<title>4Rocks – Coverband</title>
 		<meta charset="utf-8" />
+		<title>4Rocks – Coverband</title>
+		<link rel="icon" type="image/x-icon" href="etc/favicon.ico" />
+		<meta name="description" content="Wir performen Rockmusik aus unserer Jugendzeit bis zu ganz aktuellen Titeln – Energetisch und unverfälscht!" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta
-			name="description"
-			content="Wir performen Rockmusik aus unserer Jugendzeit bis zu ganz aktuellen Titeln – Energetisch und unverfälscht!"
-		/>
-		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet" />
-		<link rel="icon" type="image/x-icon" href="./etc/favicon.ico" />
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
-		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/master.css" />
-		<link rel="stylesheet" type="text/css" href="css/mystyles.css" />
-		<link rel="stylesheet" type="text/css" href="css/pattern.css" />
+		<meta name="description" content="Wir performen Rockmusik aus unserer Jugendzeit bis zu ganz aktuellen Titeln – Energetisch und unverfälscht!" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
+		<link rel="stylesheet" href="etc/master.css" />
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
 	</head>
 	<body>
-		<section id="hero" class="hero is-dark is-unselectable" style="box-shadow: 0px 10px 12px 2px hsl(0, 0%, 75%)">
-			<div class="hero-body" style="padding: 1.4rem 0.5rem 0rem 0.5rem">
-				<div class="container">
-					<center>
-						<a href="index.html"><img class="is-3by1" src="./images/logo.png" alt="" style="max-height: 68px" /></a>
-					</center>
-				</div>
-				<h1 class="has-text-centered is-size-5-desktop is-size-6-mobile" style="margin-top: 1.2rem">
-					Wir performen Rockmusik aus unserer Jugendzeit bis zu ganz aktuellen Titeln – Energetisch und unverfälscht!
-				</h1>
-				<center>
-					<figure class="image" style="margin-top: 1.6rem" aria-hidden="true">
-						<img class="rounded" src="./images/header.jpg" style="width: 95%; max-width: 650px" />
-					</figure>
-					<figure class="icon is-large" style="margin: 0.4rem" aria-hidden="true">
-						<i class="fas fa-chevron-down fa-2x"></i>
-					</figure>
-				</center>
+		<!--NAVBAR-->
+		<header style="background-color: #fff; border-bottom: 1px solid #f2f2f2" data-uk-sticky="show-on-up: true; animation: uk-animation-slide-top">
+			<div class="uk-container">
+				<nav id="navbar" data-uk-navbar="mode: click;">
+					<div class="uk-navbar-center">
+						<a class="uk-navbar-item uk-logo" href="#" data-uk-scroll="duration: 500">
+							<img src="etc/logo.png" alt="4Rocks" style="height: 50px" />
+						</a>
+					</div>
+				</nav>
 			</div>
-		</section>
-		<section id="ueberdieband" class="section">
-			<div class="container">
-				<div class="tabs is-centered is-unselectable" aria-hidden="true">
-					<ul>
-						<li class="is-active">
-							<a class="" style="cursor: default">
-								<span class="icon"><i class="fas fa-music"></i></span>
-								<span>Über die Band</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="columns is-variable is-2">
-					<div class="column sameHeight">
-						<div class="columns is-variable is-2" style="padding: 0 0; margin-left: auto; margin-right: auto">
-							<div class="column sameHeight">
-								<div class="box">
-									<p class="title is-3">Über die Band</p>
-									<p>
-										Wir sind 5 begeisterte Musiker aus dem Köllertal bei Saarbrücken und bieten Rock- & Pop-Klassiker
-										aus fast vier Jahrzehnten.
-									</p>
-									<br />
-									<p>Unsere aktuelle Setlist und Infos zu künftigen Auftritten befinden sich weiter unten.</p>
-								</div>
-							</div>
-							<div class="column sameHeight">
-								<div class="box">
-									<p class="title is-3">Kontakt</p>
-									<p>Nehmt gerne über die folgenden Daten mit uns Kontakt auf.</p>
-									<br />
-									<p>
-										<strong>E-Mail:&nbsp;</strong>
-									</p>
-									<ul>
-										<li><a href="mailto:kontakt@4rocks.net" target="_blank">kontakt@4rocks.net</a></li>
-									</ul>
-									<br />
-									<strong>Telefon:&nbsp;</strong>
-									<ul>
-										<li>Heiner&nbsp;–&nbsp;<a href="tel:0172 688 9940">0172&nbsp;688&nbsp;9940</a></li>
-										<li>Markus&nbsp;–&nbsp;<a href="tel:0151 5804 8794">0151&nbsp;5804&nbsp8794</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column sameHeight">
-						<div class="columns is-variable is-2 is-mobile" style="padding: 0 0; margin-left: auto; margin-right: auto">
-							<div class="column sameHeight">
-								<div class="box">
-									<figure class="image">
-										<img class="rounded" src="images/achim.jpg" alt="Achim Neckenig" />
-									</figure>
-									<p class="title is-5" style="margin-top: 0.8rem">Achim Neckenig</p>
-									<p class="subtitle">Gesang</p>
-								</div>
-							</div>
-							<div class="column sameHeight">
-								<div class="box">
-									<figure class="image">
-										<img class="rounded" src="images/georg.jpg" alt="Georg Wagner" />
-									</figure>
-									<p class="title is-5" style="margin-top: 0.8rem">Georg Wagner</p>
-									<p class="subtitle">Schlagzeug</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="columns is-variable is-2">
-					<div class="column sameHeight">
-						<div class="columns is-variable is-2 is-mobile" style="padding: 0 0; margin-left: auto; margin-right: auto">
-							<div class="column sameHeight">
-								<div class="box">
-									<figure class="image">
-										<img class="rounded" src="images/heiner.jpg" alt="Heiner Monzel" />
-									</figure>
-									<p class="title is-5" style="margin-top: 0.8rem">Heiner Monzel</p>
-									<p class="subtitle">Gitarre</p>
-								</div>
-							</div>
-							<div class="column sameHeight">
-								<div class="box">
-									<figure class="image">
-										<img class="rounded" src="images/stephan.jpg" alt="Stephan Mayer" />
-									</figure>
-									<p class="title is-5" style="margin-top: 0.8rem">Stephan Mayer</p>
-									<p class="subtitle">Gitarre</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column sameHeight">
-						<div class="columns is-variable is-2 is-mobile" style="padding: 0 0; margin-left: auto; margin-right: auto">
-							<div class="column sameHeight">
-								<div class="box">
-									<figure class="image">
-										<img class="rounded" src="images/markus.jpg" alt="Markus Böhm" />
-									</figure>
-									<p class="title is-5" style="margin-top: 0.8rem">Markus Böhm</p>
-									<p class="subtitle">Bass</p>
-								</div>
-							</div>
-							<div class="column sameHeight"></div>
-						</div>
-					</div>
+		</header>
+		<!--/NAVBAR-->
+		<!--HERO-->
+		<section
+			id="hero"
+			class="uk-section uk-section-small uk-background-cover uk-background-center-center"
+			style="background-image: url('etc/images/sky.jpg'); background-color: #8a777a; padding-bottom: 20px"
+		>
+			<div class="uk-container" uk-scrollspy="cls: uk-animation-slide-top-small; target: .hero; delay: 50; repeat: false">
+				<img class="uk-align-center uk-box-shadow-medium hero" data-src="etc/images/band/header.jpg" width="800" height="410" alt="Foto der Band" uk-img />
+				<div class="uk-text-center uk-text-secondary">
+					<a href="#aboutus" data-uk-scroll="duration: 500" class="uk-icon-button uk-icon-large" uk-icon="arrow-down"></a>
 				</div>
 			</div>
 		</section>
-		<section id="aktuelletermine" class="section">
-			<div class="container">
-				<div class="tabs is-centered is-unselectable" aria-hidden="true">
-					<ul>
-						<li class="is-active">
-							<a class="" style="cursor: default">
-								<span class="icon"><i class="fas fa-calendar-alt"></i></span>
-								<span>Aktuelle Termine</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="columns">
-					<div class="column is-one-quarter is-hidden-mobile"></div>
-					<div class="column is-two-quarters">
-						<div class="timeline is-centered">
-							<header class="timeline-header is-unselectable">
-								<span class="tag is-large is-dark has-text-white">2020</span>
-							</header>
-							<div class="timeline-item is-dark">
-								<div class="timeline-marker is-dark"></div>
-								<div class="timeline-content is-unselectable">
-									<p class="heading">August 2020</p>
-								</div>
+		<!--/HERO-->
+		<hr class="uk-margin-remove" />
+		<!--ABOUTUS-->
+		<section id="aboutus" class="uk-section uk-section-medium">
+			<div class="uk-container">
+				<div class="uk-child-width-expand@s uk-child-width-1-2@s uk-height-match" uk-grid>
+					<!--SOCIALS-->
+					<div>
+						<h2 class="uk-text-bold uk-h2 htext">Wir performen Rockmusik aus unserer Jugendzeit bis zu ganz aktuellen Titeln&nbsp;– Energetisch und unverfälscht!</h2>
+						<p class="uk-text-lead ptext">
+							Wir sind 5 begeisterte Musiker aus dem Köllertal bei Saarbrücken und bieten Rock- & Pop-Klassiker aus fast vier Jahrzehnten.
+						</p>
+						<hr class="uk-divider-small" />
+						<button class="uk-icon-button uk-margin-small-right" uk-icon="mail"></button>
+						<div uk-drop="mode: click; pos: top-left" class="uk-width-auto">
+							<div class="uk-card uk-card-body uk-card-small uk-card-default">
+								<ul class="uk-list">
+									<li>E-Mail – <a class="uk-link" href="mailto:kontakt@4rocks.net">kontakt@4rocks.net</a></li>
+								</ul>
 							</div>
-							<div class="timeline-item is-dark">
-								<div class="timeline-marker is-large is-primary is-icon">
-									<i class="fa fa-plus has-text-light"></i>
-								</div>
-								<div class="timeline-content">
-									<p class="heading is-size-6">15. August</p>
-									<p>
-										<a class="link is-size-4" href="https://goo.gl/maps/64WsmsRExkMwE6JAA" target="_blank"
-											>Straßenfest (Open Air)</a
-										>
-										<br />Marpingen Ortsmitte, Saar
-									</p>
-								</div>
-							</div>
-							<div class="timeline-item is-dark">
-								<div class="timeline-marker is-dark"></div>
-								<div class="timeline-content is-unselectable">
-									<p class="heading">September 2020</p>
-								</div>
-							</div>
-							<div class="timeline-item is-dark">
-								<div class="timeline-marker is-large is-primary is-icon">
-									<i class="fa fa-plus has-text-light"></i>
-								</div>
-								<div class="timeline-content">
-									<p class="heading is-size-6">05. September</p>
-									<p>
-										<a class="link is-size-4" href="https://goo.gl/maps/T47ficYmrbYyffTr5" target="_blank"
-											>Straßenfest bei Jochem's Kneipe (Open Air)</a
-										>
-										<br />am Stumpen, Riegelsberg
-									</p>
-								</div>
+						</div>
+						<button class="uk-icon-button uk-margin-small-right" uk-icon="receiver"></button>
+						<div uk-drop="mode: click; pos: top-left" class="uk-width-auto">
+							<div class="uk-card uk-card-body uk-card-small uk-card-default">
+								<ul class="uk-list">
+									<li>Heiner – <a class="uk-link" href="tel:0172 688 9940">0172 688 9940</a></li>
+									<li>Markus – <a class="uk-link" href="tel:0151 5804 8794">0151 5804 8794</a></li>
+								</ul>
 							</div>
 						</div>
 					</div>
-					<div class="column is-one-quarter is-hidden-mobile"></div>
-				</div>
-			</div>
-		</section>
-		<section id="videos" class="section">
-			<div class="container">
-				<div class="tabs is-centered is-unselectable" aria-hidden="true">
-					<ul>
-						<li class="is-active">
-							<a class="" style="cursor: default">
-								<span class="icon"><i class="fas fa-video"></i></span>
-								<span>Videos</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="columns is-variable is-2">
-					<div class="column sameHeight">
-						<div class="box">
-							<p class="title is-5">Straßenfest, Marpingen</p>
-							<p class="subtitle">15. August 2020</p>
-							<div class="wrapper">
-								<div class="youtube rounded" data-embed="6ccykaXoGww">
-									<div class="play-button"></div>
-								</div>
-							</div>
+					<!--/SOCIALS-->
+					<!--SLIDESHOW-->
+					<div uk-scrollspy="cls: uk-animation-slide-top-small; target: .slideshow; delay: 50; repeat: false">
+						<div
+							class="uk-position-relative uk-visible-toggle uk-light slideshow uk-box-shadow-medium"
+							data-uk-slideshow="ratio: 16:9; autoplay: true; autoplay-interval: 5000; pause-on-hover: true; animation: pull; min-height: 200"
+						>
+							<ul class="uk-slideshow-items">
+								<li>
+									<img data-src="etc/images/band/achim.jpg" data-uk-img="target: !.uk-slideshow-items" alt="Achim Neckenig" data-uk-cover />
+									<div class="uk-position-bottom uk-text-center uk-light uk-overlay-primary" style="padding: 8px">
+										<h3 class="uk-margin-remove uk-text-bold sl-title">Achim Neckenig</h3>
+										<p class="uk-margin-remove sl-text">Gesang</p>
+									</div>
+								</li>
+								<li>
+									<img data-src="etc/images/band/georg.jpg" data-uk-img="target: !.uk-slideshow-items" alt="Georg Wagner" data-uk-cover />
+									<div class="uk-position-bottom uk-text-center uk-light uk-overlay-primary" style="padding: 8px">
+										<h3 class="uk-margin-remove uk-text-bold sl-title">Georg Wagner</h3>
+										<p class="uk-margin-remove sl-text">Schlagzeug</p>
+									</div>
+								</li>
+								<li>
+									<img data-src="etc/images/band/heiner.jpg" data-uk-img="target: !.uk-slideshow-items" alt="Heiner Monzel" data-uk-cover />
+									<div class="uk-position-bottom uk-text-center uk-light uk-overlay-primary" style="padding: 8px">
+										<h3 class="uk-margin-remove uk-text-bold sl-title">Heiner Monzel</h3>
+										<p class="uk-margin-remove sl-text">Gitarre</p>
+									</div>
+								</li>
+								<li>
+									<img data-src="etc/images/band/stephan.jpg" data-uk-img="target: !.uk-slideshow-items" alt="Stephan Mayer" data-uk-cover />
+									<div class="uk-position-bottom uk-text-center uk-light uk-overlay-primary" style="padding: 8px">
+										<h3 class="uk-margin-remove uk-text-bold sl-title">Stephan Mayer</h3>
+										<p class="uk-margin-remove sl-text">Gitarre</p>
+									</div>
+								</li>
+								<li>
+									<img data-src="etc/images/band/markus.jpg" data-uk-img="target: !.uk-slideshow-items" alt="Markus Böhm" data-uk-cover />
+									<div class="uk-position-bottom uk-text-center uk-light uk-overlay-primary" style="padding: 8px">
+										<h3 class="uk-margin-remove uk-text-bold sl-title">Markus Böhm</h3>
+										<p class="uk-margin-remove sl-text">Bass</p>
+									</div>
+								</li>
+							</ul>
+							<a
+								class="uk-position-center-left uk-position-small uk-slidenav-large"
+								href="#"
+								data-uk-slidenav-previous="ratio: 1.5"
+								data-uk-slideshow-item="previous"
+							></a>
+							<a class="uk-position-center-right uk-position-small uk-slidenav-large" href="#" data-uk-slidenav-next="ratio: 1.5" data-uk-slideshow-item="next"></a>
 						</div>
 					</div>
-					<div class="column sameHeight">
-						<div class="box">
-							<p class="title is-5">Open Air Konzert, Riegelsberg</p>
-							<p class="subtitle">05. September 2020</p>
-							<div class="wrapper">
-								<div class="youtube rounded" data-embed="7zDz8R3Bj-c">
-									<div class="play-button"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column sameHeight"></div>
+					<!--/SLIDESHOW-->
 				</div>
 			</div>
 		</section>
-		<section id="moeglichetitel" class="section">
-			<div class="container">
-				<div class="tabs is-centered is-unselectable" aria-hidden="true">
-					<ul>
-						<li class="is-active">
-							<a class="" style="cursor: default">
-								<span class="icon"><i class="fas fa-list-alt"></i></span>
-								<span>Mögliche Titel</span>
-							</a>
-						</li>
-					</ul>
+
+		<!--/ABOUTUS-->
+		<hr class="uk-margin-remove" />
+		<!--VIDEOS-->
+		<section class="uk-section uk-section-small uk-background-cover uk-background-center-center" style="background-image: url('etc/images/sky.jpg'); background-color: #8a777a">
+			<div class="uk-container">
+				<div
+					class="uk-grid uk-grid-small uk-child-width-expand@s uk-child-width-1-3@s uk-grid-match"
+					uk-scrollspy="cls: uk-animation-slide-top-small; target: .uk-card; delay: 150; repeat: false"
+					uk-grid
+				>
+					<!--VIDEO-1-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media-top">
+								<a href="https://youtu.be/6ccykaXoGww" target="_blank"
+									><div class="uk-inline-clip uk-light uk-transition-toggle">
+										<img
+											class="uk-transition-scale-up uk-transition-opaque"
+											src="etc/images/thumbnail/videos/2020-08-15.jpg"
+											width="889"
+											height="500"
+											alt="Open-Air Straßenfest, Marpingen"
+										/>
+										<div class="uk-position-center">
+											<span data-uk-icon="icon: youtube; ratio: 3.5"></span>
+										</div></div
+								></a>
+							</div>
+							<div class="uk-card-footer">
+								<div class="uk-grid-small uk-flex uk-flex-middle" data-uk-grid>
+									<div class="uk-width-expand">
+										<h5 class="uk-margin-remove-bottom">Open-Air Straßenfest</h5>
+										<p class="uk-text-meta uk-margin-remove"><time datetime="2020-08-15T18:00">15. August 2020</time>,&nbsp;Marpingen</p>
+									</div>
+									<div class="uk-inline">
+										<button
+											id="video1"
+											class="uk-icon-button uk-margin-xsmall-right socials"
+											data-clipboard-text="https://youtu.be/6ccykaXoGww"
+											uk-tooltip="title: Video-Link kopieren; delay: 50"
+											uk-icon="icon:link; ratio: 1"
+											onclick="successColor1()"
+										></button>
+										<script>
+											function successColor1() {
+												document.getElementById("video1").classList.add("uk-button-primary");
+												setTimeout(function () {
+													document.getElementById("video1").classList.replace("uk-button-primary", "uk-button-muted");
+												}, 2000);
+											}
+										</script>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/VIDEO-1-->
+					<!--VIDEO-2-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media-top">
+								<a href="https://youtu.be/7zDz8R3Bj-c" target="_blank"
+									><div class="uk-inline-clip uk-transition-toggle uk-light">
+										<img
+											class="uk-transition-scale-up uk-transition-opaque"
+											src="etc/images/thumbnail/videos/2020-09-05.jpg"
+											width="889"
+											height="500"
+											alt="Open-Air Konzert, Riegelsberg"
+										/>
+										<div class="uk-position-center">
+											<span data-uk-icon="icon: youtube; ratio: 3.5"></span>
+										</div></div
+								></a>
+							</div>
+							<div class="uk-card-footer">
+								<div class="uk-grid-small uk-flex uk-flex-middle" data-uk-grid>
+									<div class="uk-width-expand">
+										<h5 class="uk-margin-remove-bottom">Open-Air bei Jochem's Kneipe</h5>
+										<p class="uk-text-meta uk-margin-remove"><time datetime="2020-09-05T18:00">05. September 2020</time>,&nbsp;Riegelsberg</p>
+									</div>
+									<div class="uk-inline">
+										<button
+											id="video2"
+											class="uk-icon-button uk-margin-xsmall-right socials"
+											data-clipboard-text="https://youtu.be/7zDz8R3Bj-c"
+											uk-tooltip="title: Video-Link kopieren; delay: 50"
+											uk-icon="icon:link; ratio: 1"
+											onclick="successColor2()"
+										></button>
+										<script>
+											function successColor2() {
+												document.getElementById("video2").classList.add("uk-button-primary");
+												setTimeout(function () {
+													document.getElementById("video2").classList.replace("uk-button-primary", "uk-button-muted");
+												}, 2000);
+											}
+										</script>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/VIDEO-2-->
+					<!--VIDEO-3-->
+					<div></div>
+					<!--/VIDEO-3-->
 				</div>
-				<div class="tile is-ancestor">
-					<div class="tile is-4 is-vertical is-parent" style="padding: 0.75rem 0.5rem">
-						<div class="tile is-child box">
-							<p class="title is-3">Mögliche Titel</p>
-							<p>Hier ein kleiner Auszug aus unserem Repertoire als Beispiel für unseren Geschmack.</p>
-							<br />
-							<p>Weitere Song-Wünsche können wir selbstverständlich auch spielen.</p>
-						</div>
-						<div class="tile is-child"></div>
-						<div class="tile is-child"></div>
+			</div>
+		</section>
+		<!--/VIDEOS-->
+		<hr class="uk-margin-remove" />
+		<!--TIMELINE-->
+		<section class="uk-section uk-section-medium">
+			<div class="uk-container">
+				<div class="uk-grid uk-child-width-expand@s uk-child-width-3@s uk-height-match" uk-grid>
+					<div>
+						<h3 class="uk-text-bold htext">Auftritte</h3>
+						<p class="uk-text-lead ptext">Die wichtigsten Informationen zu kommenden Konzerten werden hier eingetragen. Wir freuen uns auf euer Erscheinen!</p>
+						<hr class="uk-divider-small" />
 					</div>
-					<div class="tile is-4 is-parent" style="padding: 0.75rem 0.5rem">
-						<div class="tile is-child box">
-							<table class="table is-striped is-fullwidth rounded">
-								<thead>
-									<tr>
-										<th>Songtitel</th>
-										<th>Interpret</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Billy Jean</td>
-										<td>Bates</td>
-									</tr>
-									<tr>
-										<td>Es geht mir gut</td>
-										<td>Westernhagen</td>
-									</tr>
-									<tr>
-										<td>Jumping Jack Flash</td>
-										<td>Rolling Stones</td>
-									</tr>
-									<tr>
-										<td>Wannsee</td>
-										<td>Die Toten Hosen</td>
-									</tr>
-									<tr>
-										<td>Altes Fieber</td>
-										<td>Die Toten Hosen</td>
-									</tr>
-									<tr>
-										<td>Another Brick in The Wall</td>
-										<td>Pink Floyd</td>
-									</tr>
-									<tr>
-										<td>Alles passiert</td>
-										<td>Die Toten Hosen</td>
-									</tr>
-									<tr>
-										<td>All Right Now</td>
-										<td>Free</td>
-									</tr>
-									<tr>
-										<td>Dreadlock Holiday</td>
-										<td>10CC</td>
-									</tr>
-									<tr>
-										<td>Far away</td>
-										<td>Slade</td>
-									</tr>
-									<tr>
-										<td>Ruby</td>
-										<td>Kaiser Chiefs</td>
-									</tr>
-									<tr>
-										<td>Superstitious</td>
-										<td>Phil X</td>
-									</tr>
-									<tr>
-										<td>Smells like Teen Spirit</td>
-										<td>Nirvana</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-					<div class="tile is-4 is-parent" style="padding: 0.75rem 0.5rem">
-						<div class="tile is-child box">
-							<table class="table is-striped is-fullwidth rounded">
-								<thead>
-									<tr>
-										<th>Songtitel</th>
-										<th>Interpret</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>With or Without You</td>
-										<td>U2</td>
-									</tr>
-									<tr>
-										<td>Lucky Man</td>
-										<td>Emerson Lake and Palmer</td>
-									</tr>
-									<tr>
-										<td>Es geht voran</td>
-										<td>Fehlfarben</td>
-									</tr>
-									<tr>
-										<td>Tage wie diese</td>
-										<td>Die Toten Hosen</td>
-									</tr>
-									<tr>
-										<td>White Wedding</td>
-										<td>Billy Idol</td>
-									</tr>
-									<tr>
-										<td>Learn to Fly</td>
-										<td>Foo Fighters</td>
-									</tr>
-									<tr>
-										<td>Caroline</td>
-										<td>Status Quo</td>
-									</tr>
-									<tr>
-										<td>Tush</td>
-										<td>ZZ Top</td>
-									</tr>
-									<tr>
-										<td>Gimme All Your Loving</td>
-										<td>ZZ Top</td>
-									</tr>
-									<tr>
-										<td>Wonderful Tonight</td>
-										<td>Eric Clapton</td>
-									</tr>
-									<tr>
-										<td>2 Princes</td>
-										<td>Spin Doctors</td>
-									</tr>
-									<tr>
-										<td>Draußen vor der Tür</td>
-										<td>Die Toten Hosen</td>
-									</tr>
-								</tbody>
-							</table>
+					<div>
+						<div class="uk-list" style="padding-left: 10px; border-left: #666 solid 1px">
+							<!--DATE1-->
+							<li>
+								<span class="uk-margin-small-right uk-float-left" uk-icon="icon: triangle-right; ratio: 2"></span>
+								<aricle class="uk-article">
+									<div class="uk-article-body no-select">
+										<div class="uk-text-bold uk-margin-xsmall-bottom"><time>15. August 2020</time>, 18:00 Uhr</div>
+										<h3 class="uk-h3 uk-margin-remove">
+											<a href="https://goo.gl/maps/64WsmsRExkMwE6JAA" target="_blank">Straßenfest (Open Air)</a>
+										</h3>
+										<div class="uk-margin-xsmall-top uk-text-small"><p>Marpingen Ortsmitte, Saar</p></div>
+									</div>
+									<hr />
+								</aricle>
+							</li>
+							<!--/DATE1-->
+							<!--DATE2-->
+							<li>
+								<span class="uk-margin-small-right uk-float-left" uk-icon="icon: triangle-right; ratio: 2"></span>
+								<aricle class="uk-article">
+									<div class="uk-article-body no-select">
+										<div class="uk-text-bold uk-margin-xsmall-bottom"><time>05. September 2020</time>, 18:30 Uhr</div>
+										<h3 class="uk-h3 uk-margin-remove">
+											<a href="https://goo.gl/maps/T47ficYmrbYyffTr5" target="_blank">Straßenfest bei Jochem's Kneipe (Open Air)</a>
+										</h3>
+										<div class="uk-margin-xsmall-top uk-text-small"><p>Am Stumpen, Riegelsberg</p></div>
+									</div>
+								</aricle>
+							</li>
+							<!--/DATE2-->
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<br />
-		<footer class="footer is-unselectable">
-			<div class="container">
-				<center>
-					<p class="subtitle is-size-6 has-text-centered">—</p>
-					<p class="subtitle is-size-6 has-text-centered">
-						Erstellt von <a href="https://twitter.com/b0ehmt" target="_blank">Tobias Böhm</a>. <br />Sie möchten uns
-						kontaktieren? Unsere Kontaktdaten finden sie <a href="#ueberdieband">hier</a>.
-					</p>
-				</center>
+		<!--/TIMELINE-->
+		<hr class="uk-margin-remove" />
+		<!--GALLERY-->
+		<section class="uk-section uk-section-small uk-background-cover uk-background-center-center" style="background-image: url('etc/images/sky.jpg'); background-color: #8a777a">
+			<div class="uk-container">
+				<div
+					class="uk-grid uk-grid-small uk-child-width-1-2 uk-child-width-1-3@m"
+					uk-scrollspy="cls: uk-animation-slide-top-small; target: .uk-card; delay: 50; repeat: false"
+					data-uk-lightbox="toggle:a.uk-position-cover"
+					uk-grid="masonry: true"
+				>
+					<!--IMAGE-1-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+										class="uk-transition-scale-up uk-transition-opaque"
+										src="etc/images/thumbnail/gallery/2020-08-15-2.jpg"
+										alt="Georg, Markus und Heiner vor dem Auftritt in Marpingen"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2.5"></span>
+										</div>
+									</div>
+									<a
+										data-caption="Georg, Markus und Heiner vor dem Auftritt in Marpingen"
+										href="etc/images/gallery/2020-08-15-2.jpg"
+										class="uk-position-cover"
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-1-->
+					<!--IMAGE-2-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+										class="uk-transition-scale-up uk-transition-opaque"
+										src="etc/images/thumbnail/gallery/2020-08-15-1.jpg"
+										alt="Band vor dem Auftritt in Marpingen"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2.5"></span>
+										</div>
+									</div>
+									<a data-caption="Band vor dem Auftritt in Marpingen" href="etc/images/gallery/2020-08-15-1.jpg" class="uk-position-cover"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-2-->
+					<!--IMAGE-3-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+										class="uk-transition-scale-up uk-transition-opaque"
+										src="etc/images/thumbnail/gallery/2020-08-15-3.jpg"
+										alt="Georg vor dem Auftritt in Marpingen"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2.5"></span>
+										</div>
+									</div>
+									<a data-caption="Georg vor dem Auftritt in Marpingen" href="etc/images/gallery/2020-08-15-3.jpg" class="uk-position-cover"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-3-->
+					<!--IMAGE-4-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+										class="uk-transition-scale-up uk-transition-opaque"
+										src="etc/images/thumbnail/gallery/2020-08-15-4.jpg"
+										alt="Band während dem Auftritt in Marpingen"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2.5"></span>
+										</div>
+									</div>
+									<a data-caption="Band während dem Auftritt in Marpingen" href="etc/images/gallery/2020-08-15-4.jpg" class="uk-position-cover"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-4-->
+					<!--IMAGE-5-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+										class="uk-transition-scale-up uk-transition-opaque"
+										src="etc/images/thumbnail/gallery/2020-08-15-5.jpg"
+										alt="Stephan während dem Auftritt in Marpingen"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2.5"></span>
+										</div>
+									</div>
+									<a data-caption="Stephan während dem Auftritt in Marpingen" href="etc/images/gallery/2020-08-15-5.jpg" class="uk-position-cover"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-5-->
+					<!--IMAGE-6-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+										class="uk-transition-scale-up uk-transition-opaque"
+										src="etc/images/thumbnail/gallery/2020-08-15-6.jpg"
+										alt="Markus und Heiner während dem Auftritt in Marpingen"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2.5"></span>
+										</div>
+									</div>
+									<a data-caption="Markus und Heiner während dem Auftritt in Marpingen" href="etc/images/gallery/2020-08-15-6.jpg" class="uk-position-cover"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-6-->
+				</div>
+			</div>
+		</section>
+		<!--/GALLERY-->
+		<!--SONGLIST-->
+		<section class="uk-section uk-section-medium">
+			<div class="uk-container">
+				<div class="uk-grid uk-grid-small uk-child-width-expand@s uk-child-width-1-3@s uk-height-match" uk-grid>
+					<div>
+						<h3 class="uk-text-bold htext">Mögliche Titel</h3>
+						<p class="uk-text-lead ptext">
+							Hier ein kleiner Auszug aus unserem Repertoire, der unseren Musikgeschmack darstellt.<br /><br />Weitere Song-Wünsche sind selbstverständlich immer
+							willkommen!
+						</p>
+						<hr class="uk-divider-small" />
+					</div>
+					<!--TABLE-1-->
+					<div>
+						<table class="uk-table uk-table-small uk-table-striped">
+							<thead>
+								<tr>
+									<th>Songtitel</th>
+									<th>Interpret</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Billy Jean</td>
+									<td>Bates</td>
+								</tr>
+								<tr>
+									<td>Es geht mir gut</td>
+									<td>Westernhagen</td>
+								</tr>
+								<tr>
+									<td>Jumping Jack Flash</td>
+									<td>Rolling Stones</td>
+								</tr>
+								<tr>
+									<td>Wannsee</td>
+									<td>Die Toten Hosen</td>
+								</tr>
+								<tr>
+									<td>Altes Fieber</td>
+									<td>Die Toten Hosen</td>
+								</tr>
+								<tr>
+									<td>Another Brick in The Wall</td>
+									<td>Pink Floyd</td>
+								</tr>
+								<tr>
+									<td>Alles passiert</td>
+									<td>Die Toten Hosen</td>
+								</tr>
+								<tr>
+									<td>All Right Now</td>
+									<td>Free</td>
+								</tr>
+								<tr>
+									<td>Dreadlock Holiday</td>
+									<td>10CC</td>
+								</tr>
+								<tr>
+									<td>Far away</td>
+									<td>Slade</td>
+								</tr>
+								<tr>
+									<td>Ruby</td>
+									<td>Kaiser Chiefs</td>
+								</tr>
+								<tr>
+									<td>Superstitious</td>
+									<td>Phil X</td>
+								</tr>
+								<tr>
+									<td>Smells like Teen Spirit</td>
+									<td>Nirvana</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!--/TABLE-1-->
+					<!--TABLE-2-->
+					<div>
+						<table class="uk-table uk-table-small uk-table-striped">
+							<thead>
+								<tr>
+									<th>Songtitel</th>
+									<th>Interpret</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>With or Without You</td>
+									<td>U2</td>
+								</tr>
+								<tr>
+									<td>Lucky Man</td>
+									<td>Emerson Lake and Palmer</td>
+								</tr>
+								<tr>
+									<td>Es geht voran</td>
+									<td>Fehlfarben</td>
+								</tr>
+								<tr>
+									<td>Tage wie diese</td>
+									<td>Die Toten Hosen</td>
+								</tr>
+								<tr>
+									<td>White Wedding</td>
+									<td>Billy Idol</td>
+								</tr>
+								<tr>
+									<td>Learn to Fly</td>
+									<td>Foo Fighters</td>
+								</tr>
+								<tr>
+									<td>Caroline</td>
+									<td>Status Quo</td>
+								</tr>
+								<tr>
+									<td>Tush</td>
+									<td>ZZ Top</td>
+								</tr>
+								<tr>
+									<td>Gimme All Your Loving</td>
+									<td>ZZ Top</td>
+								</tr>
+								<tr>
+									<td>Wonderful Tonight</td>
+									<td>Eric Clapton</td>
+								</tr>
+								<tr>
+									<td>2 Princes</td>
+									<td>Spin Doctors</td>
+								</tr>
+								<tr>
+									<td>Draußen vor der Tür</td>
+									<td>Die Toten Hosen</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!--/TABLE-2-->
+				</div>
+			</div>
+		</section>
+		<!--/SONGLIST-->
+		<!--FOOTER-->
+		<footer class="uk-section uk-section-muted uk-section-xsmall" style="padding-bottom: 40px; border-top: 1px solid #f2f2f2">
+			<div class="uk-container">
+				<p class="uk-text-small uk-text-center">—</p>
+				<p class="uk-text-small uk-text-center">
+					Erstellt von <a href="https://twitter.com/b0ehmt" target="_blank">Tobias Böhm</a>. <br />Sie möchten uns kontaktieren? Unsere Kontaktdaten finden sie
+					<a href="#aboutus" uk-scroll>hier</a>.
+				</p>
 			</div>
 		</footer>
-		<div id="pl" class="pageloader is-active is-light is-top-to-bottom"><span class="title">Wird geladen..</span></div>
-		<script src="etc/embedyt.js"></script>
-		<script src="etc/pageloader.js"></script>
+		<!--/FOOTER-->
+		<!--CLIPBOARD-->
+		<script>
+			var clipboard = new ClipboardJS(".socials");
+
+			clipboard.on("success", function (e) {
+				console.log(e);
+			});
+
+			clipboard.on("error", function (e) {
+				console.log(e);
+			});
+		</script>
+		<!--/CLIPBOARD-->
 	</body>
 </html>
