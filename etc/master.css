@@ -1,15 +1,4 @@
-.htext {
-	font-size: 1.8rem;
-}
-.ptext {
-	font-size: 1.2rem;
-}
-.sl-title {
-	font-size: 1.5rem;
-}
-.sl-text {
-	font-size: 1.1rem;
-}
+/* GENERAL */
 .no-select {
 	user-select: none;
 	-moz-user-select: none;
@@ -17,17 +6,149 @@
 	-webkit-user-select: none;
 	-o-user-select: none;
 }
-@media (max-width: 768px) {
-	.htext {
-		font-size: 1.5rem;
+.cursor-grab {
+	cursor: grab;
+}
+
+/* SECTION */
+.section-padding {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.section-title {
+	font-size: 1.7rem;
+	font-weight: bold;
+}
+.section-subtitle {
+	font-size: 1.2rem;
+}
+.section-meta {
+	font-size: 1rem;
+}
+.hero-padding {
+	padding-right: 20px;
+}
+.div-spacer {
+	height: 20px;
+}
+
+/* NAVBAR */
+.logo-size {
+	height: 50px;
+}
+
+/* HERO */
+.hero-title {
+	font-size: 2.2rem;
+	font-weight: bold;
+	padding-top: 25px;
+}
+
+/* SLIDESHOW */
+.slideshow-width {
+	width: 70%;
+}
+
+/* CONCERTS */
+.concerts-title {
+	font-size: 1.6rem;
+}
+
+
+/* Smaller Screen */
+@media (max-width: 1200px) {
+	/* SECTION */
+	.section-padding {
+		padding-top: 40px;
+		padding-bottom: 40px;
 	}
-	.ptext {
+	.section-title {
+		font-size: 1.6rem;
+	}
+	.section-subtitle {
 		font-size: 1.1rem;
 	}
-	.sl-title {
-		font-size: 1.2rem;
+	.section-meta {
+		font-size: 0.9rem;
 	}
-	.sl-text {
-		font-size: 1rem;
+	.div-spacer {
+		height: 10px;
+	}
+
+	/* NAVBAR */
+	.logo-size {
+		height: 45px;
+	}
+
+	/* HERO */
+	.hero-title {
+		font-size: 1.9rem;
+		padding-top: 15px;
+	}
+
+	/* SLIDESHOW */
+	.slideshow-width {
+		width: 65%;
+	}
+
+	/* CONCERTS */
+	.concerts-title {
+		font-size: 1.5rem;
+	}
+}
+/* Tablet & Mobile Landscape */
+@media (max-width: 800px) {
+	/* SECTION */
+	.section-padding {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.section-title {
+		font-size: 1.5rem;
+	}
+	.section-subtitle {
+		font-size: 01rem;
+	}
+	.section-meta {
+		font-size: 0.8rem;
+	}
+	.div-spacer {
+		height: 5px;
+	}
+
+	/* HERO */
+	.hero-title {
+		font-size: 1.7rem;
+		padding-top: 15px;
+	}
+
+	/* SLIDESHOW */
+	.slideshow-width {
+		width: 80%;
+	}
+
+	/* CONCERTS */
+	.concerts-title {
+		font-size: 1.3rem;
+	}
+}
+/* Mobile Portrait */
+@media (max-width: 640px) {
+	/* HERO */
+	.hero-title {
+		padding-top: 0px;
+	}
+	/* SLIDESHOW */
+	.slideshow-width {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+/* Fix that annoying spacing bug lol */
+@media (max-width: 960px) {
+	/* GALLERY */
+	#images {
+		margin-top: 0px;
 	}
 }

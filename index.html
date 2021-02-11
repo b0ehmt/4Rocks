@@ -3,598 +3,628 @@
 		<meta charset="utf-8" />
 		<title>4Rocks – Coverband</title>
 		<link rel="icon" type="image/x-icon" href="etc/favicon.ico" />
-		<meta
-			name="description"
-			content="Wir performen Rockmusik aus unserer Jugendzeit bis zu ganz aktuellen Titeln – Energetisch und unverfälscht!"
-		/>
+		<meta name="description" content="Wir performen Rockmusik aus unserer Jugendzeit bis zu ganz aktuellen Titeln – Energetisch und unverfälscht!"/>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta
-			name="description"
-			content="Wir performen Rockmusik aus unserer Jugendzeit bis zu ganz aktuellen Titeln – Energetisch und unverfälscht!"
-		/>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
 		<link rel="stylesheet" href="etc/master.css" />
+		<link rel="stylesheet" href="etc/topography.css" />
 		<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
 	</head>
 	<body>
 		<!--NAVBAR-->
-		<header>
-			<div class="uk-container">
-				<nav id="navbar" uk-navbar="mode: click;">
+		<header id="navbar" class="uk-section-secondary">
+			<div class="uk-container uk-container-large">
+				<nav uk-navbar>
 					<div class="uk-navbar-center">
-						<a class="uk-navbar-item uk-logo" href="#" data-uk-scroll="duration: 500">
-							<img src="etc/logo.png" alt="" style="height: 50px" />
+						<a class="uk-navbar-item uk-logo" href="#" style="cursor: default;">
+							<img class="logo-size" data-src="etc/logo.png" alt="" uk-img/>
 						</a>
 					</div>
 				</nav>
 			</div>
 		</header>
 		<!--/NAVBAR-->
-		<hr class="uk-margin-remove" />
 		<!--HERO-->
-		<section
-			id="hero"
-			class="uk-section uk-section-small uk-background-cover uk-background-center-center"
-			style="background-image: url('etc/images/sky.jpg'); background-color: #8a777a; padding-bottom: 20px"
-		>
-			<div class="uk-container">
-				<img
-					class="uk-align-center uk-box-shadow-medium hero"
-					data-src="etc/images/band/header.jpg"
-					width="800"
-					height="410"
-					alt=""
-					uk-img
-				/>
-				<div class="uk-text-center uk-text-secondary">
-					<a href="#aboutus" data-uk-scroll="duration: 500" class="uk-icon-button uk-icon-large" uk-icon="arrow-down"></a>
+		<section id="hero" class="section-padding uk-section background-topography" style="background-color: #E0E1E6;">
+			<div class="uk-container uk-container-large">
+				<div class="uk-child-width-1-2@s uk-grid-large" uk-grid>
+					<div>
+						<div class="hero-padding">
+							<h1 class="hero-title">
+								Wir performen Rockmusik aus unserer Jugendzeit bis zu ganz aktuellen Titeln.
+							</h1>
+							<p class="section-subtitle">
+								Wir sind 5 begeisterte Musiker aus dem Köllertal bei Saarbrücken und bieten Rock- & Pop-Klassiker aus fast vier
+								Jahrzehnten.
+							</p>
+						</div>
+					</div>
+					<div class="uk-margin-remove">
+						<img class="uk-box-shadow-medium" data-src="etc/images/header.jpg" alt="" width="600" height="308" uk-img />
+					</div>
 				</div>
 			</div>
 		</section>
 		<!--/HERO-->
-		<hr class="uk-margin-remove" />
 		<!--ABOUTUS-->
-		<section id="aboutus" class="uk-section uk-section-medium">
-			<div class="uk-container">
-				<div class="uk-child-width-expand@s uk-child-width-1-2@s uk-height-match" uk-grid>
-					<!--SOCIALS-->
+		<section id="about-us" class="section-padding uk-section uk-section-secondary">
+			<div class="uk-container uk-container-large">
+				<div class="uk-child-width-expand@s uk-grid-large" uk-grid>
 					<div>
-						<h2 class="uk-text-bold uk-h2 htext">
-							Wir performen Rockmusik aus unserer Jugendzeit bis zu ganz aktuellen Titeln&nbsp;– Energetisch und unverfälscht!
-						</h2>
-						<p class="uk-text-lead ptext">
-							Wir sind 5 begeisterte Musiker aus dem Köllertal bei Saarbrücken und bieten Rock- & Pop-Klassiker aus fast vier
-							Jahrzehnten.
+						<h2 class="section-title">Kontakt</h2>
+						<p class="section-subtitle">
+							Kontaktiert uns gerne per E-Mail unter <a href="mailto:kontakt@4rocks.net">kontakt@4rocks.net</a>
+							oder per Telefon unter <a href="tel:0172 688 9940">0172&nbsp;688&nbsp;9940</a> (Heiner) und <a href="tel:0151 5804 8794">0151&nbsp;5804&nbsp;8794</a> (Markus).
 						</p>
-						<hr class="uk-divider-small" />
-						<button class="uk-icon-button uk-margin-small-right" uk-icon="mail"></button>
-						<div uk-drop="mode: click; pos: top-left" class="uk-width-auto">
-							<div class="uk-card uk-card-body uk-card-small uk-card-default">
-								<ul class="uk-list">
-									<li>E-Mail – <a class="uk-link" href="mailto:kontakt@4rocks.net">kontakt@4rocks.net</a></li>
-								</ul>
-							</div>
-						</div>
-						<button class="uk-icon-button uk-margin-small-right" uk-icon="receiver"></button>
-						<div uk-drop="mode: click; pos: top-left" class="uk-width-auto">
-							<div class="uk-card uk-card-body uk-card-small uk-card-default">
-								<ul class="uk-list">
-									<li>Heiner – <a class="uk-link" href="tel:0172 688 9940">0172 688 9940</a></li>
-									<li>Markus – <a class="uk-link" href="tel:0151 5804 8794">0151 5804 8794</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<!--/SOCIALS-->
-					<!--SLIDESHOW-->
-					<div>
+						<div class="div-spacer"></div>
+						<!--SLIDESHOW-->
 						<div
-							class="uk-position-relative uk-visible-toggle uk-light slideshow uk-box-shadow-medium"
-							data-uk-slideshow="ratio: 16:9; autoplay: true; autoplay-interval: 5000; pause-on-hover: true; animation: pull; min-height: 200"
+								class="slideshow-width no-select uk-position-relative uk-visible-toggle slideshow"
+								data-uk-slideshow="ratio: 16:9; autoplay: true; autoplay-interval: 5000; pause-on-hover: true; animation: slide;"
 						>
-							<ul class="uk-slideshow-items">
+							<ul class="uk-slideshow-items cursor-grab">
 								<li>
 									<img
-										data-src="etc/images/band/achim.jpg"
-										data-uk-img="target: !.uk-slideshow-items"
-										alt="Achim Neckenig"
-										data-uk-cover
+											data-src="etc/images/slideshow/achim.jpg"
+											data-uk-img="target: !.uk-slideshow-items"
+											width="500"
+											height="281"
+											alt="Achim Neckenig"
+											data-uk-cover
 									/>
-									<div class="uk-position-bottom uk-text-center uk-light uk-overlay-primary" style="padding: 8px">
-										<h3 class="uk-margin-remove uk-text-bold sl-title">Achim Neckenig</h3>
-										<p class="uk-margin-remove sl-text">Gesang</p>
+									<div class="uk-position-bottom uk-text-center uk-overlay-primary" style="padding: 5px">
+										<h3 class="section-subtitle uk-margin-remove">Achim Neckenig</h3>
+										<p class="section-meta uk-margin-remove">Gesang</p>
 									</div>
 								</li>
 								<li>
 									<img
-										data-src="etc/images/band/georg.jpg"
-										data-uk-img="target: !.uk-slideshow-items"
-										alt="Georg Wagner"
-										data-uk-cover
+											data-src="etc/images/slideshow/georg.jpg"
+											data-uk-img="target: !.uk-slideshow-items"
+											width="500"
+											height="281"
+											alt="Georg Wagner"
+											data-uk-cover
 									/>
 									<div class="uk-position-bottom uk-text-center uk-light uk-overlay-primary" style="padding: 8px">
-										<h3 class="uk-margin-remove uk-text-bold sl-title">Georg Wagner</h3>
-										<p class="uk-margin-remove sl-text">Schlagzeug</p>
+										<h3 class="section-subtitle uk-margin-remove">Georg Wagner</h3>
+										<p class="section-meta uk-margin-remove">Schlagzeug</p>
 									</div>
 								</li>
 								<li>
 									<img
-										data-src="etc/images/band/heiner.jpg"
-										data-uk-img="target: !.uk-slideshow-items"
-										alt="Heiner Monzel"
-										data-uk-cover
+											data-src="etc/images/slideshow/heiner.jpg"
+											data-uk-img="target: !.uk-slideshow-items"
+											width="500"
+											height="281"
+											alt="Heiner Monzel"
+											data-uk-cover
 									/>
 									<div class="uk-position-bottom uk-text-center uk-light uk-overlay-primary" style="padding: 8px">
-										<h3 class="uk-margin-remove uk-text-bold sl-title">Heiner Monzel</h3>
-										<p class="uk-margin-remove sl-text">Gitarre</p>
+										<h3 class="section-subtitle uk-margin-remove">Heiner Monzel</h3>
+										<p class="section-meta uk-margin-remove">Gitarre</p>
 									</div>
 								</li>
 								<li>
 									<img
-										data-src="etc/images/band/stephan.jpg"
-										data-uk-img="target: !.uk-slideshow-items"
-										alt="Stephan Mayer"
-										data-uk-cover
+											data-src="etc/images/slideshow/stephan.jpg"
+											data-uk-img="target: !.uk-slideshow-items"
+											width="500"
+											height="281"
+											alt="Stephan Mayer"
+											data-uk-cover
 									/>
 									<div class="uk-position-bottom uk-text-center uk-light uk-overlay-primary" style="padding: 8px">
-										<h3 class="uk-margin-remove uk-text-bold sl-title">Stephan Mayer</h3>
-										<p class="uk-margin-remove sl-text">Gitarre</p>
+										<h3 class="section-subtitle uk-margin-remove">Stephan Mayer</h3>
+										<p class="section-meta uk-margin-remove">Gitarre</p>
 									</div>
 								</li>
 								<li>
 									<img
-										data-src="etc/images/band/markus.jpg"
-										data-uk-img="target: !.uk-slideshow-items"
-										alt="Markus Böhm"
-										data-uk-cover
+											data-src="etc/images/slideshow/markus.jpg"
+											data-uk-img="target: !.uk-slideshow-items"
+											width="500"
+											height="281"
+											alt="Markus Böhm"
+											data-uk-cover
 									/>
 									<div class="uk-position-bottom uk-text-center uk-light uk-overlay-primary" style="padding: 8px">
-										<h3 class="uk-margin-remove uk-text-bold sl-title">Markus Böhm</h3>
-										<p class="uk-margin-remove sl-text">Bass</p>
+										<h3 class="section-subtitle uk-margin-remove">Markus Böhm</h3>
+										<p class="section-meta uk-margin-remove">Bass</p>
 									</div>
 								</li>
 							</ul>
 							<a
-								class="uk-position-center-left uk-position-small uk-slidenav-large"
-								href="#"
-								data-uk-slidenav-previous="ratio: 1.5"
-								data-uk-slideshow-item="previous"
+									class="uk-position-center-left uk-position-small"
+									href="#"
+									data-uk-slidenav-previous="ratio: 1.5"
+									data-uk-slideshow-item="previous"
 							></a>
 							<a
-								class="uk-position-center-right uk-position-small uk-slidenav-large"
-								href="#"
-								data-uk-slidenav-next="ratio: 1.5"
-								data-uk-slideshow-item="next"
+									class="uk-position-center-right uk-position-small"
+									href="#"
+									data-uk-slidenav-next="ratio: 1.5"
+									data-uk-slideshow-item="next"
 							></a>
 						</div>
+						<!--/SLIDESHOW-->
 					</div>
-					<!--/SLIDESHOW-->
-				</div>
-			</div>
-		</section>
-		<!--/ABOUTUS-->
-		<hr class="uk-margin-remove" />
-		<!--VIDEOS-->
-		<section
-			class="uk-section uk-section-small uk-background-cover uk-background-center-center"
-			style="background-image: url('etc/images/sky.jpg'); background-color: #8a777a"
-		>
-			<div class="uk-container">
-				<div class="uk-grid uk-grid-small uk-child-width-expand@s uk-child-width-1-3@s uk-grid-match" uk-grid>
-					<!--VIDEO-1-->
 					<div>
-						<div class="uk-card uk-card-default">
-							<div class="uk-card-media-top">
-								<a href="https://youtu.be/6ccykaXoGww" target="_blank"
-									><div class="uk-inline-clip uk-light uk-transition-toggle">
-										<img
-											class="uk-transition-scale-up uk-transition-opaque"
-											src="etc/images/thumbnail/videos/2020-08-15.jpg"
-											width="889"
-											height="500"
-											alt=""
-										/>
-										<div class="uk-position-center">
-											<span data-uk-icon="icon: youtube; ratio: 3.5"></span>
-										</div></div
-								></a>
-							</div>
-							<div class="uk-card-footer">
-								<div class="uk-grid-small uk-flex uk-flex-middle" data-uk-grid>
-									<div class="uk-width-expand">
-										<h5 class="uk-margin-remove-bottom">Open-Air Straßenfest</h5>
-										<p class="uk-text-meta uk-margin-remove">
-											<time datetime="2020-08-15T18:00">15. August 2020</time>,&nbsp;Marpingen
-										</p>
-									</div>
-									<div class="uk-inline">
-										<button
-											id="video1"
-											class="uk-icon-button uk-margin-xsmall-right socials"
-											data-clipboard-text="https://youtu.be/6ccykaXoGww"
-											uk-tooltip="title: Video-Link kopieren; delay: 50"
-											uk-icon="icon:link; ratio: 1"
-											onclick="successColor1()"
-										></button>
-										<script>
-											function successColor1() {
-												document.getElementById("video1").classList.add("uk-button-primary");
-												setTimeout(function () {
-													document
-														.getElementById("video1")
-														.classList.replace("uk-button-primary", "uk-button-muted");
-												}, 2000);
-											}
-										</script>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--/VIDEO-1-->
-					<!--VIDEO-2-->
-					<div>
-						<div class="uk-card uk-card-default">
-							<div class="uk-card-media-top">
-								<a href="https://youtu.be/7zDz8R3Bj-c" target="_blank"
-									><div class="uk-inline-clip uk-transition-toggle uk-light">
-										<img
-											class="uk-transition-scale-up uk-transition-opaque"
-											src="etc/images/thumbnail/videos/2020-09-05.jpg"
-											width="889"
-											height="500"
-											alt=""
-										/>
-										<div class="uk-position-center">
-											<span data-uk-icon="icon: youtube; ratio: 3.5"></span>
-										</div></div
-								></a>
-							</div>
-							<div class="uk-card-footer">
-								<div class="uk-grid-small uk-flex uk-flex-middle" data-uk-grid>
-									<div class="uk-width-expand">
-										<h5 class="uk-margin-remove-bottom">Open-Air bei Jochem's Kneipe</h5>
-										<p class="uk-text-meta uk-margin-remove">
-											<time datetime="2020-09-05T18:00">05. September 2020</time>,&nbsp;Riegelsberg
-										</p>
-									</div>
-									<div class="uk-inline">
-										<button
-											id="video2"
-											class="uk-icon-button uk-margin-xsmall-right socials"
-											data-clipboard-text="https://youtu.be/7zDz8R3Bj-c"
-											uk-tooltip="title: Video-Link kopieren; delay: 50"
-											uk-icon="icon:link; ratio: 1"
-											onclick="successColor2()"
-										></button>
-										<script>
-											function successColor2() {
-												document.getElementById("video2").classList.add("uk-button-primary");
-												setTimeout(function () {
-													document
-														.getElementById("video2")
-														.classList.replace("uk-button-primary", "uk-button-muted");
-												}, 2000);
-											}
-										</script>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--/VIDEO-2-->
-					<!--VIDEO-3-->
-					<div></div>
-					<!--/VIDEO-3-->
-				</div>
-			</div>
-		</section>
-		<!--/VIDEOS-->
-		<hr class="uk-margin-remove" />
-		<!--TIMELINE-->
-		<section class="uk-section uk-section-medium">
-			<div class="uk-container">
-				<div class="uk-grid uk-child-width-expand@s uk-child-width-3@s uk-height-match" uk-grid>
-					<div>
-						<h3 class="uk-text-bold htext">Auftritte</h3>
-						<p class="uk-text-lead ptext">
-							Die wichtigsten Informationen zu kommenden Konzerten werden hier eingetragen. Wir freuen uns auf euer
-							Erscheinen!
+						<h2 class="section-title">Auftritte</h2>
+						<p class="section-subtitle section-spacer">
+							In nächster Zeit werden aufgrund von COVID-19 keine weiteren Konzerte stattfinden.
 						</p>
-						<hr class="uk-divider-small" />
-					</div>
-					<div>
-						<div class="uk-list" style="padding-left: 10px; border-left: #666 solid 1px">
+						<div class="div-spacer"></div>
+						<!--CONCERTS-->
+						<div class="uk-list">
 							<!--DATE1-->
 							<li>
 								<span class="uk-margin-small-right uk-float-left" uk-icon="icon: triangle-right; ratio: 2"></span>
 								<aricle class="uk-article">
-									<div class="uk-article-body no-select">
-										<div class="uk-text-bold uk-margin-xsmall-bottom"><time>15. August 2020</time>, 18:00 Uhr</div>
-										<h3 class="uk-h3 uk-margin-remove">
+									<div class="uk-article-body">
+										<div class="section-meta uk-text-bold uk-margin-xsmall-bottom"><time>15. August 2020</time>, 18:00 Uhr</div>
+										<h3 class="concerts-title uk-margin-remove">
 											<a href="https://goo.gl/maps/64WsmsRExkMwE6JAA" target="_blank">Straßenfest (Open Air)</a>
 										</h3>
-										<div class="uk-margin-xsmall-top uk-text-small"><p>Marpingen Ortsmitte, Saar</p></div>
+										<div class="section-meta uk-margin-xsmall-top"><p>Ortsmitte, Marpingen</p></div>
 									</div>
-									<hr />
 								</aricle>
 							</li>
 							<!--/DATE1-->
+							<hr class="uk-divider-small" />
 							<!--DATE2-->
 							<li>
 								<span class="uk-margin-small-right uk-float-left" uk-icon="icon: triangle-right; ratio: 2"></span>
 								<aricle class="uk-article">
-									<div class="uk-article-body no-select">
-										<div class="uk-text-bold uk-margin-xsmall-bottom"><time>05. September 2020</time>, 18:30 Uhr</div>
-										<h3 class="uk-h3 uk-margin-remove">
+									<div class="uk-article-body">
+										<div class="section-meta uk-text-bold uk-margin-xsmall-bottom"><time>05. September 2020</time>, 18:30 Uhr</div>
+										<h3 class="concerts-title uk-margin-remove">
 											<a href="https://goo.gl/maps/T47ficYmrbYyffTr5" target="_blank"
-												>Straßenfest bei Jochem's Kneipe (Open Air)</a
+											>Straßenfest bei Jochem's Kneipe (Open Air)</a
 											>
 										</h3>
-										<div class="uk-margin-xsmall-top uk-text-small"><p>Am Stumpen, Riegelsberg</p></div>
+										<div class="section-meta uk-margin-xsmall-top"><p>Am Stumpen, Riegelsberg</p></div>
 									</div>
 								</aricle>
 							</li>
 							<!--/DATE2-->
 						</div>
+						<!--/CONCERTS-->
 					</div>
 				</div>
 			</div>
 		</section>
-		<!--/TIMELINE-->
-		<hr class="uk-margin-remove" />
+		<!--/ABOUTUS-->
 		<!--GALLERY-->
-		<section
-			class="uk-section uk-section-small uk-background-cover uk-background-center-center"
-			style="background-image: url('etc/images/sky.jpg'); background-color: #8a777a"
-		>
-			<div class="uk-container">
-				<div
-					class="uk-grid uk-grid-small uk-child-width-1-2 uk-child-width-1-3@m"
-					data-uk-lightbox="toggle:a.uk-position-cover"
-					uk-grid="masonry: true"
-				>
-					<!--IMAGE-1-->
+		<section id="gallery" class="section-padding uk-section background-topography" style="background-color: #E0E1E6;">
+			<div class="uk-container uk-container-large">
+				<!--VIDEOS-->
+				<div class="uk-grid uk-grid-small  uk-child-width-1-4@m uk-child-width-1-3@s uk-child-width-1-2 uk-grid-match" uk-grid>
+					<!--VIDEO-->
 					<div>
 						<div class="uk-card uk-card-default">
-							<div class="uk-card-media">
-								<div class="uk-inline-clip uk-transition-toggle uk-light">
+							<div class="uk-card-media-top">
+								<a href="https://youtu.be/6ccykaXoGww" target="_blank"
+								><div class="uk-inline-clip uk-light uk-transition-toggle">
 									<img
-										class="uk-transition-scale-up uk-transition-opaque"
-										src="etc/images/thumbnail/gallery/2020-08-15-2.jpg"
-										alt="Georg, Markus und Heiner vor dem Auftritt in Marpingen"
+											class="uk-transition-scale-up uk-transition-opaque"
+											src="etc/images/gallery/thumbnail/videos/2020-08-15.jpg"
+											width="889"
+											height="500"
+											alt=""
 									/>
-									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
-										<div data-uk-margin class="uk-transition-slide-bottom-small">
-											<span data-uk-icon="icon: expand; ratio: 2.5"></span>
-										</div>
+									<div class="uk-position-center">
+										<span data-uk-icon="icon: youtube; ratio: 3"></span>
+									</div></div
+								></a>
+							</div>
+							<div class="uk-card-footer">
+								<div class="uk-grid-small uk-flex uk-flex-middle" data-uk-grid>
+									<div class="uk-width-expand">
+										<h4 class="section-subtitle uk-margin-remove-bottom">Konzert in Marpingen am Brunnen</h4>
+										<p class="section-meta uk-margin-remove">
+											<time datetime="2020-08-15T18:00">15.08.2020</time>
+										</p>
 									</div>
-									<a
-										data-caption="Georg, Markus und Heiner vor dem Auftritt in Marpingen"
-										href="etc/images/gallery/2020-08-15-2.jpg"
-										class="uk-position-cover"
-									></a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<!--/IMAGE-1-->
-					<!--IMAGE-2-->
+					<!--/VIDEO-->
+					<!--VIDEO-->
 					<div>
 						<div class="uk-card uk-card-default">
-							<div class="uk-card-media">
-								<div class="uk-inline-clip uk-transition-toggle uk-light">
+							<div class="uk-card-media-top">
+								<a href="https://youtu.be/7zDz8R3Bj-c" target="_blank"
+								><div class="uk-inline-clip uk-transition-toggle uk-light">
 									<img
-										class="uk-transition-scale-up uk-transition-opaque"
-										src="etc/images/thumbnail/gallery/2020-08-15-1.jpg"
-										alt="Band vor dem Auftritt in Marpingen"
+											class="uk-transition-scale-up uk-transition-opaque"
+											src="etc/images/gallery/thumbnail/videos/2020-09-05.jpg"
+											width="889"
+											height="500"
+											alt=""
 									/>
-									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
-										<div data-uk-margin class="uk-transition-slide-bottom-small">
-											<span data-uk-icon="icon: expand; ratio: 2.5"></span>
-										</div>
+									<div class="uk-position-center">
+										<span data-uk-icon="icon: youtube; ratio: 3"></span>
+									</div></div
+								></a>
+							</div>
+							<div class="uk-card-footer">
+								<div class="uk-grid-small uk-flex uk-flex-middle" data-uk-grid>
+									<div class="uk-width-expand">
+										<h4 class="section-subtitle uk-margin-remove-bottom">Konzert bei Jochem's Kneipe</h4>
+										<p class="section-meta uk-margin-remove">
+											<time datetime="2020-09-05T18:00">05.09.2020</time>
+										</p>
 									</div>
-									<a
-										data-caption="Band vor dem Auftritt in Marpingen"
-										href="etc/images/gallery/2020-08-15-1.jpg"
-										class="uk-position-cover"
-									></a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<!--/IMAGE-2-->
-					<!--IMAGE-3-->
+					<!--/VIDEO-->
+					<!--VIDEO-->
 					<div>
-						<div class="uk-card uk-card-default">
-							<div class="uk-card-media">
-								<div class="uk-inline-clip uk-transition-toggle uk-light">
-									<img
-										class="uk-transition-scale-up uk-transition-opaque"
-										src="etc/images/thumbnail/gallery/2020-08-15-3.jpg"
-										alt="Georg vor dem Auftritt in Marpingen"
-									/>
-									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
-										<div data-uk-margin class="uk-transition-slide-bottom-small">
-											<span data-uk-icon="icon: expand; ratio: 2.5"></span>
-										</div>
-									</div>
-									<a
-										data-caption="Georg vor dem Auftritt in Marpingen"
-										href="etc/images/gallery/2020-08-15-3.jpg"
-										class="uk-position-cover"
-									></a>
-								</div>
-							</div>
-						</div>
 					</div>
-					<!--/IMAGE-3-->
-					<!--IMAGE-4-->
-					<div>
-						<div class="uk-card uk-card-default">
-							<div class="uk-card-media">
-								<div class="uk-inline-clip uk-transition-toggle uk-light">
-									<img
-										class="uk-transition-scale-up uk-transition-opaque"
-										src="etc/images/thumbnail/gallery/2020-08-15-4.jpg"
-										alt="Band während dem Auftritt in Marpingen"
-									/>
-									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
-										<div data-uk-margin class="uk-transition-slide-bottom-small">
-											<span data-uk-icon="icon: expand; ratio: 2.5"></span>
-										</div>
-									</div>
-									<a
-										data-caption="Band während dem Auftritt in Marpingen"
-										href="etc/images/gallery/2020-08-15-4.jpg"
-										class="uk-position-cover"
-									></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--/IMAGE-4-->
-					<!--IMAGE-5-->
-					<div>
-						<div class="uk-card uk-card-default">
-							<div class="uk-card-media">
-								<div class="uk-inline-clip uk-transition-toggle uk-light">
-									<img
-										class="uk-transition-scale-up uk-transition-opaque"
-										src="etc/images/thumbnail/gallery/2020-08-15-5.jpg"
-										alt="Stephan während dem Auftritt in Marpingen"
-									/>
-									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
-										<div data-uk-margin class="uk-transition-slide-bottom-small">
-											<span data-uk-icon="icon: expand; ratio: 2.5"></span>
-										</div>
-									</div>
-									<a
-										data-caption="Stephan während dem Auftritt in Marpingen"
-										href="etc/images/gallery/2020-08-15-5.jpg"
-										class="uk-position-cover"
-									></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--/IMAGE-5-->
-					<!--IMAGE-6-->
-					<div>
-						<div class="uk-card uk-card-default">
-							<div class="uk-card-media">
-								<div class="uk-inline-clip uk-transition-toggle uk-light">
-									<img
-										class="uk-transition-scale-up uk-transition-opaque"
-										src="etc/images/thumbnail/gallery/2020-08-15-6.jpg"
-										alt="Markus und Heiner während dem Auftritt in Marpingen"
-									/>
-									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
-										<div data-uk-margin class="uk-transition-slide-bottom-small">
-											<span data-uk-icon="icon: expand; ratio: 2.5"></span>
-										</div>
-									</div>
-									<a
-										data-caption="Markus und Heiner während dem Auftritt in Marpingen"
-										href="etc/images/gallery/2020-08-15-6.jpg"
-										class="uk-position-cover"
-									></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--/IMAGE-6-->
+					<!--/VIDEO-->
+					<!--VIDEO-->
+					<div></div>
+					<!--/VIDEO-->
 				</div>
+				<!--/VIDEOS-->
+				<!--IMAGES-->
+				<div id="images" class="uk-grid uk-grid-small uk-child-width-1-4@m uk-child-width-1-3@s uk-child-width-1-2" data-uk-lightbox="toggle:a.uk-position-cover" uk-grid="masonry: true">
+					<!--IMAGE-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+											class="uk-transition-scale-up uk-transition-opaque"
+											src="etc/images/gallery/thumbnail/images/2020-08-15-4.jpg"
+											alt="Band während dem Auftritt in Marpingen"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2"></span>
+										</div>
+									</div>
+									<a
+											data-caption="Band während dem Auftritt in Marpingen"
+											href="etc/images/gallery/images/2020-08-15-4.jpg"
+											class="uk-position-cover"
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-->
+					<!--IMAGE-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+											class="uk-transition-scale-up uk-transition-opaque"
+											src="etc/images/gallery/thumbnail/images/2020-08-15-5.jpg"
+											alt="Stephan während dem Auftritt in Marpingen"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2"></span>
+										</div>
+									</div>
+									<a
+											data-caption="Stephan während dem Auftritt in Marpingen"
+											href="etc/images/gallery/images/2020-08-15-5.jpg"
+											class="uk-position-cover"
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-->
+					<!--IMAGE-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+											class="uk-transition-scale-up uk-transition-opaque"
+											src="etc/images/gallery/thumbnail/images/2020-08-15-2.jpg"
+											alt="Georg, Markus und Heiner vor dem Auftritt in Marpingen"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2"></span>
+										</div>
+									</div>
+									<a
+											data-caption="Georg, Markus und Heiner vor dem Auftritt in Marpingen"
+											href="etc/images/gallery/images/2020-08-15-2.jpg"
+											class="uk-position-cover"
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-->
+					<!--IMAGE-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+											class="uk-transition-scale-up uk-transition-opaque"
+											src="etc/images/gallery/thumbnail/images/2020-08-15-6.jpg"
+											alt="Markus und Heiner während dem Auftritt in Marpingen"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2"></span>
+										</div>
+									</div>
+									<a
+											data-caption="Markus und Heiner während dem Auftritt in Marpingen"
+											href="etc/images/gallery/images/2020-08-15-6.jpg"
+											class="uk-position-cover"
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-->
+					<!--IMAGE-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+											class="uk-transition-scale-up uk-transition-opaque"
+											src="etc/images/gallery/thumbnail/images/2020-08-15-3.jpg"
+											alt="Georg vor dem Auftritt in Marpingen"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2"></span>
+										</div>
+									</div>
+									<a
+											data-caption="Georg vor dem Auftritt in Marpingen"
+											href="etc/images/gallery/images/2020-08-15-3.jpg"
+											class="uk-position-cover"
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-->
+					<!--IMAGE-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+											class="uk-transition-scale-up uk-transition-opaque"
+											src="etc/images/gallery/thumbnail/images/2020-08-01.jpg"
+											alt="Heiner, Georg und Markus vor dem Auftritt in Obersalbach"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2"></span>
+										</div>
+									</div>
+									<a
+											data-caption="Heiner, Georg und Markus vor dem Auftritt in Obersalbach"
+											href="etc/images/gallery/images/2020-08-01.jpg"
+											class="uk-position-cover"
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-->
+					<!--IMAGE-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+											class="uk-transition-scale-up uk-transition-opaque"
+											src="etc/images/gallery/thumbnail/images/2020-08-01-5.jpg"
+											alt="Heiner während dem Auftritt in Obersalbach"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2"></span>
+										</div>
+									</div>
+									<a
+											data-caption="Heiner während dem Auftritt in Obersalbach"
+											href="etc/images/gallery/images/2020-08-01-5.jpg"
+											class="uk-position-cover"
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-->
+					<!--IMAGE-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+											class="uk-transition-scale-up uk-transition-opaque"
+											src="etc/images/gallery/thumbnail/images/2020-08-01-4.jpg"
+											alt="Stephan während dem Auftritt in Obersalbach"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2"></span>
+										</div>
+									</div>
+									<a
+											data-caption="Stephan während dem Auftritt in Obersalbach"
+											href="etc/images/gallery/images/2020-08-01-4.jpg"
+											class="uk-position-cover"
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-->
+					<!--IMAGE-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+											class="uk-transition-scale-up uk-transition-opaque"
+											src="etc/images/gallery/thumbnail/images/2020-08-01-6.jpg"
+											alt="Markus, Stephan und Heiner während dem Auftritt in Obersalbach"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2"></span>
+										</div>
+									</div>
+									<a
+											data-caption="Markus, Stephan und Heiner während dem Auftritt in Obersalbach"
+											href="etc/images/gallery/images/2020-08-01-6.jpg"
+											class="uk-position-cover"
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-->
+					<!--IMAGE-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+											class="uk-transition-scale-up uk-transition-opaque"
+											src="etc/images/gallery/thumbnail/images/2020-08-01-3.jpg"
+											alt="Georg während dem Auftritt in Obersalbach"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2"></span>
+										</div>
+									</div>
+									<a
+											data-caption="Georg während dem Auftritt in Obersalbach"
+											href="etc/images/gallery/images/2020-08-01-3.jpg"
+											class="uk-position-cover"
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-->
+					<!--IMAGE-->
+					<div>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media">
+								<div class="uk-inline-clip uk-transition-toggle uk-light">
+									<img
+											class="uk-transition-scale-up uk-transition-opaque"
+											src="etc/images/gallery/thumbnail/images/2020-08-01-2.jpg"
+											alt="Heiner und Markus vor dem Auftritt in Obersalbach"
+									/>
+									<div class="uk-transition-fade uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+										<div data-uk-margin class="uk-transition-slide-bottom-small">
+											<span data-uk-icon="icon: expand; ratio: 2"></span>
+										</div>
+									</div>
+									<a
+											data-caption="Heiner und Markus vor dem Auftritt in Obersalbach"
+											href="etc/images/gallery/images/2020-08-01-2.jpg"
+											class="uk-position-cover"
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/IMAGE-->
+				</div>
+				<!--/IMAGES-->
 			</div>
 		</section>
 		<!--/GALLERY-->
 		<!--SONGLIST-->
-		<section class="uk-section uk-section-medium">
-			<div class="uk-container">
-				<div class="uk-grid uk-grid-small uk-child-width-expand@s uk-child-width-1-3@s uk-height-match" uk-grid>
+		<section id="songlist" class="section-padding uk-section uk-section-secondary">
+			<div class="uk-container uk-container-large">
+				<div class="uk-grid uk-child-width-1-2@s" uk-grid>
 					<div>
-						<h3 class="uk-text-bold htext">Mögliche Titel</h3>
-						<p class="uk-text-lead ptext">
+						<h2 class="section-title">Mögliche Titel</h2>
+						<p class="section-subtitle">
 							Hier ein kleiner Auszug aus unserem Repertoire, der unseren Musikgeschmack darstellt.<br /><br />Weitere
 							Song-Wünsche sind selbstverständlich immer willkommen!
 						</p>
-						<hr class="uk-divider-small" />
-					</div>
-					<!--TABLE-1-->
-					<div>
-						<table class="uk-table uk-table-small uk-table-striped">
+						<table class="section-subtitle uk-table uk-light uk-table-small uk-table-striped">
 							<thead>
-								<tr>
-									<th>Songtitel</th>
-									<th>Interpret</th>
-								</tr>
+							<tr>
+								<th>Titel</th>
+								<th>Interpret</th>
+							</tr>
 							</thead>
 							<tbody>
-								<tr>
-									<td>Billy Jean</td>
-									<td>Bates</td>
-								</tr>
-								<tr>
-									<td>Es geht mir gut</td>
-									<td>Westernhagen</td>
-								</tr>
-								<tr>
-									<td>Jumping Jack Flash</td>
-									<td>Rolling Stones</td>
-								</tr>
-								<tr>
-									<td>Wannsee</td>
-									<td>Die Toten Hosen</td>
-								</tr>
-								<tr>
-									<td>Altes Fieber</td>
-									<td>Die Toten Hosen</td>
-								</tr>
-								<tr>
-									<td>Another Brick in The Wall</td>
-									<td>Pink Floyd</td>
-								</tr>
-								<tr>
-									<td>Alles passiert</td>
-									<td>Die Toten Hosen</td>
-								</tr>
-								<tr>
-									<td>All Right Now</td>
-									<td>Free</td>
-								</tr>
-								<tr>
-									<td>Dreadlock Holiday</td>
-									<td>10CC</td>
-								</tr>
-								<tr>
-									<td>Far away</td>
-									<td>Slade</td>
-								</tr>
-								<tr>
-									<td>Ruby</td>
-									<td>Kaiser Chiefs</td>
-								</tr>
-								<tr>
-									<td>Superstitious</td>
-									<td>Phil X</td>
-								</tr>
-								<tr>
-									<td>Smells like Teen Spirit</td>
-									<td>Nirvana</td>
-								</tr>
+							<tr>
+								<td>Billy Jean</td>
+								<td>Bates</td>
+							</tr>
+							<tr>
+								<td>Es geht mir gut</td>
+								<td>Westernhagen</td>
+							</tr>
+							<tr>
+								<td>Jumping Jack Flash</td>
+								<td>Rolling Stones</td>
+							</tr>
+							<tr>
+								<td>Wannsee</td>
+								<td>Die Toten Hosen</td>
+							</tr>
+							<tr>
+								<td>Altes Fieber</td>
+								<td>Die Toten Hosen</td>
+							</tr>
+							<tr>
+								<td>Another Brick in The Wall</td>
+								<td>Pink Floyd</td>
+							</tr>
+							<tr>
+								<td>Alles passiert</td>
+								<td>Die Toten Hosen</td>
+							</tr>
+							<tr>
+								<td>All Right Now</td>
+								<td>Free</td>
+							</tr>
+							<tr>
+								<td>Dreadlock Holiday</td>
+								<td>10CC</td>
+							</tr>
+							<tr>
+								<td>Far away</td>
+								<td>Slade</td>
+							</tr>
+							<tr>
+								<td>Ruby</td>
+								<td>Kaiser Chiefs</td>
+							</tr>
 							</tbody>
 						</table>
 					</div>
-					<!--/TABLE-1-->
-					<!--TABLE-2-->
 					<div>
-						<table class="uk-table uk-table-small uk-table-striped">
+						<table class="section-subtitle uk-table uk-light uk-table-small uk-table-striped">
 							<thead>
 								<tr>
-									<th>Songtitel</th>
+									<th>Titel</th>
 									<th>Interpret</th>
 								</tr>
 							</thead>
@@ -647,37 +677,31 @@
 									<td>Draußen vor der Tür</td>
 									<td>Die Toten Hosen</td>
 								</tr>
+								<tr>
+									<td>Superstitious</td>
+									<td>Phil X</td>
+								</tr>
+								<tr>
+									<td>Smells like Teen Spirit</td>
+									<td>Nirvana</td>
+								</tr>
 							</tbody>
 						</table>
 					</div>
-					<!--/TABLE-2-->
 				</div>
 			</div>
 		</section>
 		<!--/SONGLIST-->
 		<!--FOOTER-->
-		<footer class="uk-section uk-section-muted uk-section-xsmall" style="padding-bottom: 40px; border-top: 1px solid #f2f2f2">
+		<footer class="uk-section uk-section-secondary uk-section-xsmall" style="padding-top: 30px; padding-bottom: 30px;">
 			<div class="uk-container">
-				<p class="uk-text-small uk-text-center">—</p>
-				<p class="uk-text-small uk-text-center">
-					Erstellt von <a href="https://twitter.com/b0ehmt" target="_blank">Tobias Böhm</a>. <br />Sie möchten uns kontaktieren?
-					Unsere Kontaktdaten finden sie <a href="#aboutus" uk-scroll>hier</a>.
+				<p class="section-meta uk-text-center">—</p>
+				<p class="section-meta uk-text-center">
+					Erstellt von <a href="https://twitter.com/frockse" target="_blank">Tobias Böhm</a>. <br />Sie möchten uns kontaktieren?
+					Unsere Kontaktdaten finden sie <a href="#about-us" uk-scroll>hier</a>.
 				</p>
 			</div>
 		</footer>
 		<!--/FOOTER-->
-		<!--CLIPBOARD-->
-		<script>
-			var clipboard = new ClipboardJS(".socials");
-
-			clipboard.on("success", function (e) {
-				console.log(e);
-			});
-
-			clipboard.on("error", function (e) {
-				console.log(e);
-			});
-		</script>
-		<!--/CLIPBOARD-->
 	</body>
 </html>
