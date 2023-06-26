@@ -27,6 +27,7 @@
 }
 .hero-padding {
 	padding-right: 20px;
+	padding-top: 100px;
 }
 .div-spacer {
 	height: 20px;
@@ -112,6 +113,9 @@
 	.section-meta {
 		font-size: 0.8rem;
 	}
+	.hero-padding {
+		padding-top: 20px;
+	}
 	.div-spacer {
 		height: 5px;
 	}
@@ -142,6 +146,9 @@
 	.slideshow-width {
 		width: 90%;
 		margin: 0 auto;
+	}
+	.hero-padding {
+		padding-top: 0px;
 	}
 }
 
